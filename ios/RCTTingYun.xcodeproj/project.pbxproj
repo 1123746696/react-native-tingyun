@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1F83CF1E9745DA008B2251 /* RCTTingYun.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */; };
+		CE1F83D01E9745DA008B2251 /* RCTTingYun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */; };
+		CE86C4051E9770430053EC30 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86C3F31E9770430053EC30 /* tingyunApp.framework */; };
+		CE86C4061E9770430053EC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C3F71E9770430053EC30 /* AppDelegate.m */; };
+		CE86C4071E9770430053EC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C3FE1E9770430053EC30 /* main.m */; };
+		CE86C4081E9770430053EC30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C4011E9770430053EC30 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE86C40A1E9770430053EC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 658BCB121D2518B3000B06B0;
+			remoteInfo = TingyunDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE1F83C81E9745DA008B2251 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CE1F83D01E9745DA008B2251 /* RCTTingYun.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE1F83CA1E9745DA008B2251 /* libRCTTingYun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTingYun.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTingYun.h; sourceTree = "<group>"; };
+		CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTingYun.m; sourceTree = "<group>"; };
+		CE86C3EF1E9770430053EC30 /* Crash 符号化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Crash 符号化.pdf"; sourceTree = "<group>"; };
+		CE86C3F01E9770430053EC30 /* iOS SDK 部署文档.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS SDK 部署文档.pdf"; sourceTree = "<group>"; };
+		CE86C3F11E9770430053EC30 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		CE86C3F21E9770430053EC30 /* tingyun.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = tingyun.sh; sourceTree = "<group>"; };
+		CE86C3F31E9770430053EC30 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
+		CE86C3F61E9770430053EC30 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE86C3F71E9770430053EC30 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE86C3F81E9770430053EC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE86C3FA1E9770430053EC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE86C3FC1E9770430053EC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE86C3FD1E9770430053EC30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE86C3FE1E9770430053EC30 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE86C3FF1E9770430053EC30 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE86C4001E9770430053EC30 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE86C4011E9770430053EC30 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TingyunDemo.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1F83C71E9745DA008B2251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE86C4051E9770430053EC30 /* tingyunApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1F83C11E9745DA008B2251 = {
+			isa = PBXGroup;
+			children = (
+				CE86C3ED1E9770430053EC30 /* nbs-newlens-ios-2.5.4 */,
+				CE1F83CC1E9745DA008B2251 /* RCTTingYun */,
+				CE1F83CB1E9745DA008B2251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1F83CB1E9745DA008B2251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F83CA1E9745DA008B2251 /* libRCTTingYun.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1F83CC1E9745DA008B2251 /* RCTTingYun */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */,
+				CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */,
+			);
+			path = RCTTingYun;
+			sourceTree = "<group>";
+		};
+		CE86C3ED1E9770430053EC30 /* nbs-newlens-ios-2.5.4 */ = {
+			isa = PBXGroup;
+			children = (
+				CE86C3EE1E9770430053EC30 /* TingYun_部署文档 */,
+				CE86C3F31E9770430053EC30 /* tingyunApp.framework */,
+				CE86C3F41E9770430053EC30 /* TingyunDemo */,
+			);
+			path = "nbs-newlens-ios-2.5.4";
+			sourceTree = "<group>";
+		};
+		CE86C3EE1E9770430053EC30 /* TingYun_部署文档 */ = {
+			isa = PBXGroup;
+			children = (
+				CE86C3EF1E9770430053EC30 /* Crash 符号化.pdf */,
+				CE86C3F01E9770430053EC30 /* iOS SDK 部署文档.pdf */,
+				CE86C3F11E9770430053EC30 /* ReleaseNotes.txt */,
+				CE86C3F21E9770430053EC30 /* tingyun.sh */,
+			);
+			path = "TingYun_部署文档";
+			sourceTree = "<group>";
+		};
+		CE86C3F41E9770430053EC30 /* TingyunDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE86C3F51E9770430053EC30 /* TingyunDemo */,
+				CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */,
+			);
+			path = TingyunDemo;
+			sourceTree = "<group>";
+		};
+		CE86C3F51E9770430053EC30 /* TingyunDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE86C3F61E9770430053EC30 /* AppDelegate.h */,
+				CE86C3F71E9770430053EC30 /* AppDelegate.m */,
+				CE86C3F81E9770430053EC30 /* Assets.xcassets */,
+				CE86C3F91E9770430053EC30 /* LaunchScreen.storyboard */,
+				CE86C3FB1E9770430053EC30 /* Main.storyboard */,
+				CE86C3FD1E9770430053EC30 /* Info.plist */,
+				CE86C3FE1E9770430053EC30 /* main.m */,
+				CE86C3FF1E9770430053EC30 /* PrefixHeader.pch */,
+				CE86C4001E9770430053EC30 /* ViewController.h */,
+				CE86C4011E9770430053EC30 /* ViewController.m */,
+			);
+			path = TingyunDemo;
+			sourceTree = "<group>";
+		};
+		CE86C4031E9770430053EC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE86C40B1E9770430053EC30 /* TingyunDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1F83C91E9745DA008B2251 /* RCTTingYun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F83D31E9745DA008B2251 /* Build configuration list for PBXNativeTarget "RCTTingYun" */;
+			buildPhases = (
+				CE1F83C61E9745DA008B2251 /* Sources */,
+				CE1F83C71E9745DA008B2251 /* Frameworks */,
+				CE1F83C81E9745DA008B2251 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTTingYun;
+			productName = RCTTingYun;
+			productReference = CE1F83CA1E9745DA008B2251 /* libRCTTingYun.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1F83C21E9745DA008B2251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = simple;
+				TargetAttributes = {
+					CE1F83C91E9745DA008B2251 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE1F83C51E9745DA008B2251 /* Build configuration list for PBXProject "RCTTingYun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1F83C11E9745DA008B2251;
+			productRefGroup = CE1F83CB1E9745DA008B2251 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE86C4031E9770430053EC30 /* Products */;
+					ProjectRef = CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE1F83C91E9745DA008B2251 /* RCTTingYun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE86C40B1E9770430053EC30 /* TingyunDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TingyunDemo.app;
+			remoteRef = CE86C40A1E9770430053EC30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1F83C61E9745DA008B2251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE86C4061E9770430053EC30 /* AppDelegate.m in Sources */,
+				CE86C4071E9770430053EC30 /* main.m in Sources */,
+				CE86C4081E9770430053EC30 /* ViewController.m in Sources */,
+				CE1F83CF1E9745DA008B2251 /* RCTTingYun.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE86C3F91E9770430053EC30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE86C3FA1E9770430053EC30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE86C3FB1E9770430053EC30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE86C3FC1E9770430053EC30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1F83D11E9745DA008B2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE1F83D21E9745DA008B2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1F83D41E9745DA008B2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nbs-newlens-ios-2.5.4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE1F83D51E9745DA008B2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nbs-newlens-ios-2.5.4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1F83C51E9745DA008B2251 /* Build configuration list for PBXProject "RCTTingYun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F83D11E9745DA008B2251 /* Debug */,
+				CE1F83D21E9745DA008B2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1F83D31E9745DA008B2251 /* Build configuration list for PBXNativeTarget "RCTTingYun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F83D41E9745DA008B2251 /* Debug */,
+				CE1F83D51E9745DA008B2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1F83C21E9745DA008B2251 /* Project object */;
+}
