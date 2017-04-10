@@ -7,23 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0C24C61E9B387A0086DFCE /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */; };
 		CE1F83CF1E9745DA008B2251 /* RCTTingYun.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */; };
 		CE1F83D01E9745DA008B2251 /* RCTTingYun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */; };
-		CE86C4051E9770430053EC30 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86C3F31E9770430053EC30 /* tingyunApp.framework */; };
-		CE86C4061E9770430053EC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C3F71E9770430053EC30 /* AppDelegate.m */; };
-		CE86C4071E9770430053EC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C3FE1E9770430053EC30 /* main.m */; };
-		CE86C4081E9770430053EC30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86C4011E9770430053EC30 /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE86C40A1E9770430053EC30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 658BCB121D2518B3000B06B0;
-			remoteInfo = TingyunDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CE1F83C81E9745DA008B2251 /* CopyFiles */ = {
@@ -39,25 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
 		CE1F83CA1E9745DA008B2251 /* libRCTTingYun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTingYun.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTingYun.h; sourceTree = "<group>"; };
 		CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTingYun.m; sourceTree = "<group>"; };
-		CE86C3EF1E9770430053EC30 /* Crash 符号化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Crash 符号化.pdf"; sourceTree = "<group>"; };
-		CE86C3F01E9770430053EC30 /* iOS SDK 部署文档.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS SDK 部署文档.pdf"; sourceTree = "<group>"; };
-		CE86C3F11E9770430053EC30 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
-		CE86C3F21E9770430053EC30 /* tingyun.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = tingyun.sh; sourceTree = "<group>"; };
-		CE86C3F31E9770430053EC30 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
-		CE86C3F61E9770430053EC30 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE86C3F71E9770430053EC30 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE86C3F81E9770430053EC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE86C3FA1E9770430053EC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE86C3FC1E9770430053EC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE86C3FD1E9770430053EC30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE86C3FE1E9770430053EC30 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE86C3FF1E9770430053EC30 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CE86C4001E9770430053EC30 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE86C4011E9770430053EC30 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TingyunDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE86C4051E9770430053EC30 /* tingyunApp.framework in Frameworks */,
+				CE0C24C61E9B387A0086DFCE /* tingyunApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +47,7 @@
 		CE1F83C11E9745DA008B2251 = {
 			isa = PBXGroup;
 			children = (
-				CE86C3ED1E9770430053EC30 /* nbs-newlens-ios-2.5.4 */,
+				CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */,
 				CE1F83CC1E9745DA008B2251 /* RCTTingYun */,
 				CE1F83CB1E9745DA008B2251 /* Products */,
 			);
@@ -96,61 +68,6 @@
 				CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */,
 			);
 			path = RCTTingYun;
-			sourceTree = "<group>";
-		};
-		CE86C3ED1E9770430053EC30 /* nbs-newlens-ios-2.5.4 */ = {
-			isa = PBXGroup;
-			children = (
-				CE86C3EE1E9770430053EC30 /* TingYun_部署文档 */,
-				CE86C3F31E9770430053EC30 /* tingyunApp.framework */,
-				CE86C3F41E9770430053EC30 /* TingyunDemo */,
-			);
-			path = "nbs-newlens-ios-2.5.4";
-			sourceTree = "<group>";
-		};
-		CE86C3EE1E9770430053EC30 /* TingYun_部署文档 */ = {
-			isa = PBXGroup;
-			children = (
-				CE86C3EF1E9770430053EC30 /* Crash 符号化.pdf */,
-				CE86C3F01E9770430053EC30 /* iOS SDK 部署文档.pdf */,
-				CE86C3F11E9770430053EC30 /* ReleaseNotes.txt */,
-				CE86C3F21E9770430053EC30 /* tingyun.sh */,
-			);
-			path = "TingYun_部署文档";
-			sourceTree = "<group>";
-		};
-		CE86C3F41E9770430053EC30 /* TingyunDemo */ = {
-			isa = PBXGroup;
-			children = (
-				CE86C3F51E9770430053EC30 /* TingyunDemo */,
-				CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */,
-			);
-			path = TingyunDemo;
-			sourceTree = "<group>";
-		};
-		CE86C3F51E9770430053EC30 /* TingyunDemo */ = {
-			isa = PBXGroup;
-			children = (
-				CE86C3F61E9770430053EC30 /* AppDelegate.h */,
-				CE86C3F71E9770430053EC30 /* AppDelegate.m */,
-				CE86C3F81E9770430053EC30 /* Assets.xcassets */,
-				CE86C3F91E9770430053EC30 /* LaunchScreen.storyboard */,
-				CE86C3FB1E9770430053EC30 /* Main.storyboard */,
-				CE86C3FD1E9770430053EC30 /* Info.plist */,
-				CE86C3FE1E9770430053EC30 /* main.m */,
-				CE86C3FF1E9770430053EC30 /* PrefixHeader.pch */,
-				CE86C4001E9770430053EC30 /* ViewController.h */,
-				CE86C4011E9770430053EC30 /* ViewController.m */,
-			);
-			path = TingyunDemo;
-			sourceTree = "<group>";
-		};
-		CE86C4031E9770430053EC30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE86C40B1E9770430053EC30 /* TingyunDemo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,12 +116,6 @@
 			mainGroup = CE1F83C11E9745DA008B2251;
 			productRefGroup = CE1F83CB1E9745DA008B2251 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE86C4031E9770430053EC30 /* Products */;
-					ProjectRef = CE86C4021E9770430053EC30 /* TingyunDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				CE1F83C91E9745DA008B2251 /* RCTTingYun */,
@@ -212,48 +123,16 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CE86C40B1E9770430053EC30 /* TingyunDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = TingyunDemo.app;
-			remoteRef = CE86C40A1E9770430053EC30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
 		CE1F83C61E9745DA008B2251 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE86C4061E9770430053EC30 /* AppDelegate.m in Sources */,
-				CE86C4071E9770430053EC30 /* main.m in Sources */,
-				CE86C4081E9770430053EC30 /* ViewController.m in Sources */,
 				CE1F83CF1E9745DA008B2251 /* RCTTingYun.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CE86C3F91E9770430053EC30 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE86C3FA1E9770430053EC30 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CE86C3FB1E9770430053EC30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE86C3FC1E9770430053EC30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE1F83D11E9745DA008B2251 /* Debug */ = {
@@ -282,6 +161,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/nbs-newlens-ios-2.5.4";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -296,7 +176,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,6 +211,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/nbs-newlens-ios-2.5.4";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -337,7 +220,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -348,9 +233,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/nbs-newlens-ios-2.5.4",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -361,9 +247,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/nbs-newlens-ios-2.5.4",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
