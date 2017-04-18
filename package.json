@@ -9,6 +9,10 @@
 	},
 	"dependencies": {
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/1123746696/react-native-tingyun.git"
+	},
 	"devDependencies": {
 	},
 	"jest": {
