@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'newlens'
+
 android {
     compileSdkVersion 25
-    buildToolsVersion "24.0.1"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         minSdkVersion 16
@@ -32,10 +32,7 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.facebook.react:react-native:+'
-    compile files('libs/nbs-newlens-android-sdk/nbs.newlens.agent.jar')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
     compile 'com.android.support:appcompat-v7:25.0.0'
+    compile "com.networkbench.newlens.agent.android:nbs.newlens.agent:2.9.0"
     testCompile 'junit:junit:4.12'
 }
