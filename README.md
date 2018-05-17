@@ -27,3 +27,15 @@ NBSAppAgent.setLicenseKey("key").withLocationServiceEnabled(true).start(this.get
 NBSAppAgent.setLicenseKey("key").start(this.getApplicationContext());//Appkey 请从官网获取
 2. SDK 默认采集所有进程的数据，若只想采集主进程数据， 请使用以下配置
 NBSAppAgent.setLicenseKey("key").withOnlyMainProcEnabled(true).start(this.getApplicationContext());//Appkey 请从官网获取
+
+1.集成ios
+1.请在你的工程目录结构中，添加友盟统计框架，在选项TARGETS--> Build Phases-->Link Binary With Libraries-->Add Other， 选择文件node_modules/react-native-umeng-analytics/ios/analytics_ios_5.4.1/UMAnalytics.framework
+选择文件node_modules/react-native-tingyun/ios/tingyunApp.framework
+
+2.在工程目录结构中,添加友盟框架引用,在TARGETS-->Build Settings-->Framework Search Paths, 添加:
+$(SRCROOT)/../node_modules/react-native-tingyun/ios
+
+3.添加依赖库：CoreTelephony.framework，libz.tbd，Security.framework，SystemConfiguration.framework
+
+使用：#import <tingyunApp/NBSAppAgent.h>
+[NBSAppAgent startWithAppID:@"key"];

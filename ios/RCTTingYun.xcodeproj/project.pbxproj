@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0C24C61E9B387A0086DFCE /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */; };
 		CE1F83CF1E9745DA008B2251 /* RCTTingYun.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */; };
 		CE1F83D01E9745DA008B2251 /* RCTTingYun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */; };
+		CE23C48620AD72CD00F363D6 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE23C48520AD72CD00F363D6 /* tingyunApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
 		CE1F83CA1E9745DA008B2251 /* libRCTTingYun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTingYun.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1F83CD1E9745DA008B2251 /* RCTTingYun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTingYun.h; sourceTree = "<group>"; };
 		CE1F83CE1E9745DA008B2251 /* RCTTingYun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTingYun.m; sourceTree = "<group>"; };
+		CE23C48520AD72CD00F363D6 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0C24C61E9B387A0086DFCE /* tingyunApp.framework in Frameworks */,
+				CE23C48620AD72CD00F363D6 /* tingyunApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		CE1F83C11E9745DA008B2251 = {
 			isa = PBXGroup;
 			children = (
-				CE0C24C51E9B387A0086DFCE /* tingyunApp.framework */,
+				CE23C48520AD72CD00F363D6 /* tingyunApp.framework */,
 				CE1F83CC1E9745DA008B2251 /* RCTTingYun */,
 				CE1F83CB1E9745DA008B2251 /* Products */,
 			);
@@ -235,6 +235,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
@@ -249,6 +250,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
